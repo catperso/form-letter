@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Letter</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="yourName">Name</label>
+          <input id="yourName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="address1">Address line 1</label>
+          <input id="address1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="address2">Address line 2</label>
+          <input id="address2" class="form-control" type="text">
+        </div>
+        
+        <button type="submit" class="btn">Generate Letter</button>
+      </form>
+    </div>
+
+    <div id="letter">
+      <h2><span class="yourName"></span></h2>
+      <h3><span class="address1"></span></h3>
+      <h3><span class="address2"></span></h3>
+      <p>Dear <span class="yourName"></span>,</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac eros lorem. Nunc lobortis sit amet nibh quis elementum. Ut aliquet nunc velit, non sagittis dolor laoreet ac. Sed tristique turpis est. Etiam ultrices condimentum eros, eu rutrum eros consequat in. Mauris in viverra risus, ut ultrices nulla. Integer viverra erat eget ipsum hendrerit tempus. Vestibulum magna eros, malesuada at fermentum euismod, venenatis a est. Cras a quam ut massa scelerisque pulvinar. Praesent rhoncus, est at dignissim porttitor, quam arcu mollis arcu, eget faucibus nulla justo in lacus. Pellentesque accumsan dui orci, et imperdiet est tempus ac. Quisque tincidunt posuere mauris non eleifend. Curabitur bibendum elit turpis, vitae pellentesque lorem suscipit sit amet. Duis eget lorem orci. Etiam elementum nulla id bibendum lacinia. Praesent sed accumsan risus.
+
+        Nulla velit mauris, feugiat non est eu, pharetra venenatis risus. Nullam in sem arcu. Pellentesque vel erat rutrum, commodo purus congue, tincidunt dolor. Proin leo felis, ullamcorper maximus magna sit amet, commodo tincidunt tellus. Nunc tempor massa vel mi molestie pretium. Vivamus quis purus ac dolor facilisis vulputate. Nulla et lacus ornare, gravida nisi eget, finibus velit. Proin porttitor dui a gravida rhoncus. Ut at lorem nec ex venenatis convallis. Aenean risus dolor, placerat vitae tincidunt at, hendrerit nec dolor. Nunc sodales lorem quis scelerisque ornare. Suspendisse quis massa in enim consequat fermentum.
+        
+        Nulla at eros et augue semper pharetra. Sed purus dui, laoreet vel condimentum eget, elementum vel justo. Sed eu dictum enim. In vitae placerat augue, quis suscipit ex. Sed sit amet rhoncus tortor. Sed sapien neque, varius vel ultricies vitae, fermentum at diam. Etiam at dui eleifend, ullamcorper diam ut, ullamcorper nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce dictum ligula id nisl mattis, rhoncus sollicitudin risus tincidunt. Integer posuere nunc velit, ut posuere ipsum facilisis sit amet. Suspendisse quis consequat lacus.
+        
+        Phasellus felis mi, pretium in odio sit amet, imperdiet vehicula libero. Donec sagittis leo sed mattis molestie. Aenean scelerisque tristique tellus, molestie auctor ligula congue nec. Sed venenatis bibendum blandit. Vivamus tempus, lacus varius egestas rhoncus, purus arcu mollis quam, et mattis orci lacus ut justo. Vestibulum aliquam sagittis lectus, vel lacinia erat porta ac. Duis metus neque, semper eu dictum ac, ullamcorper eget lorem. Nam ornare, dui at condimentum pretium, purus nulla aliquet mi, ac hendrerit nisl ligula sed nisi.
+        
+        Maecenas sollicitudin pharetra justo. Donec vitae mauris sollicitudin, laoreet risus a, semper metus. Morbi viverra leo sed sem maximus rhoncus. Quisque vel purus turpis. Nulla euismod ut magna sed placerat. Nullam sapien lectus, lobortis quis neque ut, pretium dapibus leo. Aenean ac scelerisque nibh. Fusce eget placerat elit. Vestibulum eget purus ut est iaculis eleifend. Nunc hendrerit sem ac nulla ullamcorper elementum.</p>
+      <p>Best wishes,</p>
+      <p>-- the Internet</p>
+    </div>
+  </div>
+</body>
+</html>
